@@ -14,7 +14,7 @@ public class PositiveLoginTests extends TestBase {
         ProductsPage productsPage = new ProductsPage();
 
         landingPage.loginField.sendKeys("standard_user");
-        landingPage.passwordField.sendKeys("secret_sauce");
+        landingPage.passwordField.sendKeys("secret_sauc");
         landingPage.loginButton.click();
 
         Assert.assertEquals(productsPage.appLogo.getText(), "Swag Labs");
