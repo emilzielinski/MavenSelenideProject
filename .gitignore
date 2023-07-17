@@ -1,4 +1,3 @@
 # Project exclude paths
-target/
-
-!*target/testng-results.xml
+target/*
+!target/surefire-reports
