@@ -1,5 +1,3 @@
-package tests;
-
 import driver.manager.DriverManager;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
